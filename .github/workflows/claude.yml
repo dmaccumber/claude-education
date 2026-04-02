@@ -33,6 +33,7 @@ jobs:
       - name: Project Setup
         run: |
           npm run setup
+          npx playwright install --with-deps chromium
           npm run dev:daemon
 
       - name: Run Claude Code
