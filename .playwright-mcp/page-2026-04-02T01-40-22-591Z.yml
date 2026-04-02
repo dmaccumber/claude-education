@@ -1,0 +1,96 @@
+- generic [ref=e2]:
+  - alert [ref=e1]
+  - generic [ref=e4]:
+    - generic [ref=e6]:
+      - heading "React Component Generator" [level=1] [ref=e8]
+      - generic [ref=e10]:
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - generic [ref=e57]: "Create a pricing card component with three tiers: Basic, Pro, and Enterprise. Each tier should have a name, price, list of features, and a call-to-action button."
+            - img [ref=e60]
+          - generic [ref=e63]:
+            - img [ref=e66]
+            - generic [ref=e71]:
+              - paragraph [ref=e73]: I'll create a pricing card component with three tiers using React and Tailwind CSS.
+              - generic [ref=e76]: Created /App.jsx
+              - separator [ref=e77]
+              - paragraph [ref=e79]: "Now I'll create the PricingCards component:"
+              - generic [ref=e83]: Created /components/PricingCards.jsx
+              - separator [ref=e90]
+              - generic [ref=e91]:
+                - paragraph [ref=e92]: "Done! I've created a premium pricing card component with:"
+                - paragraph [ref=e93]:
+                  - text: ✨
+                  - strong [ref=e94]: "Features:"
+                - list [ref=e95]:
+                  - listitem [ref=e96]: Three pricing tiers (Basic, Pro, Enterprise)
+                  - listitem [ref=e97]: "\"Most Popular\" badge on Pro tier"
+                  - listitem [ref=e98]: Highlighted Pro tier with scale and ring styling
+                  - listitem [ref=e99]: Checkmark icons for each feature
+                  - listitem [ref=e100]: Responsive grid layout (stacks on mobile, 3 columns on desktop)
+                  - listitem [ref=e101]: Smooth hover effects and transitions
+                  - listitem [ref=e102]: Refined color palette (stone/neutral with violet/indigo accents)
+                  - listitem [ref=e103]: Intentional typography with varied tracking and weights
+                  - listitem [ref=e104]: Subtle shadows and borders for depth
+        - generic [ref=e21]:
+          - textbox "Describe the React component you want to create..." [ref=e22]
+          - button [disabled] [ref=e23]:
+            - img [ref=e24]
+    - separator [ref=e27]
+    - generic [ref=e29]:
+      - generic [ref=e30]:
+        - tablist [ref=e32]:
+          - tab "Preview" [ref=e33]
+          - tab "Code" [active] [selected] [ref=e34]
+        - generic [ref=e35]:
+          - button "Sign In" [ref=e36]
+          - button "Sign Up" [ref=e37]
+      - generic [ref=e105]:
+        - generic [ref=e111]:
+          - generic [ref=e112]:
+            - generic [ref=e113] [cursor=pointer]:
+              - img [ref=e114]
+              - img [ref=e116]
+              - generic [ref=e118]: components
+            - generic [ref=e121] [cursor=pointer]:
+              - img [ref=e122]
+              - generic [ref=e127]: PricingCards.jsx
+          - generic [ref=e129] [cursor=pointer]:
+            - img [ref=e130]
+            - generic [ref=e135]: App.jsx
+        - separator [ref=e136]
+        - code [ref=e141]:
+          - generic [ref=e142]:
+            - generic [ref=e144]:
+              - generic [ref=e147]: "1"
+              - generic [ref=e149]: "2"
+              - generic [ref=e151]: "3"
+              - generic [ref=e152]:
+                - generic [ref=e153] [cursor=pointer]: 
+                - generic [ref=e154]: "4"
+              - generic [ref=e155]:
+                - generic [ref=e156] [cursor=pointer]: 
+                - generic [ref=e157]: "5"
+              - generic [ref=e158]:
+                - generic [ref=e159] [cursor=pointer]: 
+                - generic [ref=e160]: "6"
+              - generic [ref=e163]: "7"
+              - generic [ref=e165]: "8"
+              - generic [ref=e167]: "9"
+              - generic [ref=e169]: "10"
+              - generic [ref=e171]: "11"
+            - generic [ref=e197]:
+              - generic [ref=e199]: import React from 'react';
+              - generic [ref=e201]: import PricingCards from '@/components/PricingCards';
+              - generic [ref=e204]: "export default function App() {"
+              - generic [ref=e206]: return (
+              - generic [ref=e208]: <div className="min-h-screen bg-gradient-to-br
+              - generic [ref=e210]: from-stone-50 to-stone-100">
+              - generic [ref=e212]: <PricingCards />
+              - generic [ref=e214]: </div>
+              - generic [ref=e216]: );
+              - generic [ref=e218]: "}"
+            - textbox "Editor content" [ref=e221]
+  - generic [ref=e222]:
+    - alert
+    - alert

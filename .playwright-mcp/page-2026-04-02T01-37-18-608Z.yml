@@ -1,0 +1,187 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e4]:
+    - generic [ref=e6]:
+      - heading "React Component Generator" [level=1] [ref=e8]
+      - generic [ref=e10]:
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - generic [ref=e57]: "Create a pricing card component with three tiers: Basic, Pro, and Enterprise. Each tier should have a name, price, list of features, and a call-to-action button."
+            - img [ref=e60]
+          - generic [ref=e63]:
+            - img [ref=e66]
+            - generic [ref=e71]:
+              - paragraph [ref=e73]: I'll create a pricing card component with three tiers for you.
+              - generic [ref=e76]: Created /App.jsx
+              - separator [ref=e77]
+              - paragraph [ref=e79]: "Now I'll create the PricingCard component:"
+              - generic [ref=e83]: Created /components/PricingCard.jsx
+              - separator [ref=e90]
+              - generic [ref=e91]:
+                - paragraph [ref=e92]: "Done! I've created a pricing card component with three tiers. The component features:"
+                - list [ref=e93]:
+                  - listitem [ref=e94]:
+                    - strong [ref=e95]: Basic, Pro, and Enterprise tiers
+                    - text: with customizable pricing
+                  - listitem [ref=e96]:
+                    - strong [ref=e97]: Feature lists
+                    - text: with checkmark icons for each tier
+                  - listitem [ref=e98]:
+                    - strong [ref=e99]: Call-to-action buttons
+                    - text: with two styles (primary and outline)
+                  - listitem [ref=e100]:
+                    - strong [ref=e101]: Highlighted tier
+                    - text: (Pro) with visual emphasis (ring, shadow, and scale)
+                  - listitem [ref=e102]:
+                    - strong [ref=e103]: Responsive grid layout
+                    - text: that stacks on mobile devices
+                  - listitem [ref=e104]:
+                    - strong [ref=e105]: Gradient background
+                    - text: for a polished look
+                - paragraph [ref=e106]:
+                  - text: The
+                  - code [ref=e692]: PricingCard
+                  - text: component is reusable and accepts props for name, price, description, features, button text, and styling variants.
+        - generic [ref=e21]:
+          - textbox "Describe the React component you want to create..." [ref=e22]
+          - button [disabled] [ref=e23]:
+            - img [ref=e24]
+    - separator [ref=e27]
+    - generic [ref=e29]:
+      - generic [ref=e30]:
+        - tablist [ref=e32]:
+          - tab "Preview" [ref=e33]
+          - tab "Code" [selected] [ref=e34]
+        - generic [ref=e35]:
+          - button "Sign In" [ref=e36]
+          - button "Sign Up" [ref=e37]
+      - generic [ref=e109]:
+        - generic [ref=e115]:
+          - generic [ref=e116]:
+            - generic [ref=e117] [cursor=pointer]:
+              - img [ref=e118]
+              - img [ref=e120]
+              - generic [ref=e122]: components
+            - generic [ref=e125] [cursor=pointer]:
+              - img [ref=e126]
+              - generic [ref=e131]: PricingCard.jsx
+          - generic [ref=e133] [cursor=pointer]:
+            - img [ref=e134]
+            - generic [ref=e139]: App.jsx
+        - separator [ref=e140]
+        - code [ref=e145]:
+          - generic [ref=e146]:
+            - generic [ref=e148]:
+              - generic [ref=e694]: "1"
+              - generic [ref=e153]: "2"
+              - generic [ref=e695]:
+                - generic [ref=e696] [cursor=pointer]: 
+                - generic [ref=e697]: "3"
+              - generic [ref=e699]: "4"
+              - generic [ref=e701]: "5"
+              - generic [ref=e703]: "6"
+              - generic [ref=e705]: "7"
+              - generic [ref=e707]: "8"
+              - generic [ref=e175]: "9"
+              - generic [ref=e177]: "10"
+              - generic [ref=e708]:
+                - generic [ref=e709] [cursor=pointer]: 
+                - generic [ref=e710]: "11"
+              - generic [ref=e182]: "12"
+              - generic [ref=e711]:
+                - generic [ref=e712] [cursor=pointer]: 
+                - generic [ref=e713]: "13"
+              - generic [ref=e186]: "14"
+              - generic [ref=e188]: "15"
+              - generic [ref=e715]: "16"
+              - generic [ref=e716]:
+                - generic [ref=e717] [cursor=pointer]: 
+                - generic [ref=e718]: "17"
+              - generic [ref=e196]: "18"
+              - generic [ref=e198]: "19"
+              - generic [ref=e200]: "20"
+              - generic [ref=e720]: "21"
+              - generic [ref=e721]:
+                - generic [ref=e722] [cursor=pointer]: 
+                - generic [ref=e723]: "22"
+              - generic [ref=e724]:
+                - generic [ref=e725] [cursor=pointer]: 
+                - generic [ref=e726]: "23"
+              - generic [ref=e727]:
+                - generic [ref=e728] [cursor=pointer]: 
+                - generic [ref=e729]: "24"
+              - generic [ref=e730]:
+                - generic [ref=e731] [cursor=pointer]: 
+                - generic [ref=e732]: "25"
+              - generic [ref=e213]: "26"
+              - generic [ref=e215]: "27"
+              - generic [ref=e217]: "28"
+              - generic [ref=e219]: "29"
+              - generic [ref=e221]: "30"
+              - generic [ref=e223]: "31"
+              - generic [ref=e734]: "32"
+              - generic [ref=e735]:
+                - generic [ref=e736] [cursor=pointer]: 
+                - generic [ref=e737]: "33"
+              - generic [ref=e230]: "34"
+              - generic [ref=e738]:
+                - generic [ref=e739] [cursor=pointer]: 
+                - generic [ref=e740]: "35"
+              - generic [ref=e742]: "36"
+              - generic [ref=e237]: "37"
+              - generic [ref=e756]: "38"
+              - generic [ref=e758]: "39"
+              - generic [ref=e759]:
+                - generic [ref=e760] [cursor=pointer]: 
+                - generic [ref=e761]: "40"
+            - generic [ref=e588]:
+              - generic [ref=e930]: "import { CheckCircle2 } from 'lucide-react';"
+              - generic [ref=e932]: "export default function PricingCard({"
+              - generic [ref=e934]: name,
+              - generic [ref=e936]: price,
+              - generic [ref=e938]: description,
+              - generic [ref=e940]: features,
+              - generic [ref=e942]: buttonText,
+              - generic [ref=e944]: buttonVariant = 'primary',
+              - generic [ref=e946]: highlighted = false
+              - generic [ref=e948]: "}) {"
+              - generic [ref=e950]: const baseCardStyles = 'rounded-lg p-8
+              - generic [ref=e952]: const highlightedStyles = highlighted
+              - generic [ref=e954]: "? 'bg-white shadow-2xl ring-2 ring-blue-500"
+              - generic [ref=e956]: ": 'bg-white shadow-lg hover:shadow-xl';"
+              - generic [ref=e959]: "const buttonStyles = {"
+              - generic [ref=e961]: "primary: 'bg-blue-600 hover:bg-blue-700"
+              - generic [ref=e963]: "outline: 'border-2 border-slate-300"
+              - generic [ref=e965]: "};"
+              - generic [ref=e968]: return (
+              - generic [ref=e970]: "<div className={`${baseCardStyles} $"
+              - generic [ref=e972]: "{highlighted && ("
+              - generic [ref=e974]: <div className="mb-4 inline-block bg-blue-100
+              - generic [ref=e976]: Most Popular
+              - generic [ref=e978]: </div>
+              - generic [ref=e980]: ")}"
+              - generic [ref=e983]: <h3 className="text-2xl font-bold
+              - generic [ref=e985]: <p className="text-slate-600 text-sm mb-4">
+              - generic [ref=e988]: <div className="mb-6">
+              - generic [ref=e990]: <span className="text-5xl font-bold
+              - generic [ref=e992]: "{price !== 'Custom' && ("
+              - generic [ref=e994]: <span className="text-slate-600 ml-2">/
+              - generic [ref=e996]: ")}"
+              - generic [ref=e998]: transition-all duration-300';
+              - generic [ref=e1000]: scale-105'
+              - generic [ref=e1002]: text-white',
+              - generic [ref=e1004]: text-slate-900 hover:border-slate-400
+              - generic [ref=e1006]: hover:bg-slate-50'
+              - generic [ref=e1008]: "{highlightedStyles}`}>"
+              - generic [ref=e1010]: text-blue-800 px-3 py-1 rounded-full text-sm
+              - generic [ref=e1012]: font-semibold">
+              - generic [ref=e1014]: "text-slate-900 mb-2\">{name}</h3>"
+              - generic [ref=e1016]: "{description}</p>"
+              - generic [ref=e1018]: "text-slate-900\">${price}</span>"
+              - generic [ref=e1020]: month</span>
+              - generic [ref=e1022]: </div>
+              - generic [ref=e1025]: <button
+            - textbox "Editor content" [ref=e690]: "))} </div> </div> ); }"
+  - generic [ref=e691]:
+    - alert
+    - alert
